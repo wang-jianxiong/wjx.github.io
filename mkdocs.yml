@@ -1,0 +1,612 @@
+site_name: 技术资料库
+site_url: http://127.0.0.1:8000
+site_description: 每天一点 ~
+site_author: 王建雄
+
+#################################################
+nav:
+    - '': index.md
+
+    - '计算机语言':
+        - '': 计算机语言/index.md
+        - 'Shell':
+            - '': 计算机语言/Shell/index.md
+            - 'shell_脚本汇总':
+                - '': 计算机语言/Shell/shell_脚本汇总/index.md
+                - 'hive数据存储副本修改': 计算机语言/Shell/shell_脚本汇总/hive数据存储副本修改.md
+        - 'Python':
+            - '': 计算机语言/Python/index.md
+            - 'Python入门':
+                - '': 计算机语言/Python/Python入门/index.md
+                - 'Python编程：从入门到实践': 计算机语言/Python/Python入门/Python编程：从入门到实践.md
+                - '笨方法学Python': 计算机语言/Python/Python入门/笨方法学Python.md
+                - 'Python基础教程(第2版 修订版)': 计算机语言/Python/Python入门/Python基础教程(第2版+修订版).md
+                - '简明Python教程': 计算机语言/Python/Python入门/简明Python教程.md
+                - 'Python编程快速上手——让繁琐工作自动化': 计算机语言/Python/Python入门/Python编程快速上手——让繁琐工作自动化.md
+                - 'Python3—廖雪峰': 计算机语言/Python/Python入门/Python3—廖雪峰.md
+                - 'Python Cookbook(第3版)高清中文完整版': 计算机语言/Python/Python入门/python+cookbook(第3版)高清中文完整版.md
+                - 'Python数据分析速查表':
+                    - '': 计算机语言/Python/Python入门/Python数据分析速查表/index.md
+            - 'Python进阶':
+                  - '': 计算机语言/Python/Python进阶/index.md
+                  - 'Effective Python': 计算机语言/Python/Python进阶/Effective_Python.md
+                  - 'Python Cookbook中文版': 计算机语言/Python/Python进阶/Python_Cookbook.md
+                  - 'Python高级编程': 计算机语言/Python/Python进阶/Python高级编程.md
+                  - '流畅的python': 计算机语言/Python/Python进阶/流畅的python.md
+            - 'Python数据分析':
+                  - '': 计算机语言/Python/Python数据分析/index.md
+                  - '利用Python进行数据分析(第二版)': 计算机语言/Python/Python数据分析/利用Python进行数据分析(第二版).md
+                  - 'Python金融大数据分析': 计算机语言/Python/Python数据分析/Python金融大数据分析.md
+                  - 'NumPy攻略_Python科学计算与数据分析': 计算机语言/Python/Python数据分析/NumPy攻略_Python科学计算与数据分析.md
+            - 'Python面试':
+                - '': 计算机语言/Python/Python面试/index.md
+                - '110道Python面试题汇总': 计算机语言/Python/Python面试/110道Python面试题汇总.md
+                - 'Python面试大全': 计算机语言/Python/Python面试/Python面试大全.md
+                - 'python BAT面试':
+                    - '': 计算机语言/Python/Python面试/python_BAT面试/README.md
+
+        - 'Golang':
+            - '': 计算机语言/Go/index.md
+        - 'Java':
+            - '': 计算机语言/Java/index.md
+        - 'sql':
+            - '': 计算机语言/Sql/index.md
+        - 'Html':
+            - '': 计算机语言/Html/index.md
+        - 'CSS':
+            - '': 计算机语言/CSS/index.md
+        - 'Js':
+            - '': 计算机语言/Js/index.md
+        - 'Bootstrap':
+            - '': 计算机语言/Bootstrap/index.md
+        - 'Vue':
+            - '': 计算机语言/Vue/index.md
+
+    - '大数据':
+        - '': 大数据/index.md
+        - 'Ambari HDP':
+            - '': 大数据/ambari/index.md
+            - '部署':
+                - '': 大数据/ambari/部署/index.md
+                - '手动部署': 大数据/ambari/部署/手动部署.md
+                - '脚本部署': 大数据/ambari/部署/脚本部署.md
+                - '一键部署': 大数据/ambari/部署/一键部署.md
+
+            - '自定义集成':
+                - '': 大数据/ambari/自定义集成/index.md
+                - '自定义集成手册':
+                    - '': 大数据/ambari/自定义集成/自定义集成手册/index.md
+                    - '第一章 自定义服务集成原理': 大数据/ambari/自定义集成/自定义集成手册/001_Ambari_自定义服务集成原理讲解.md
+                    - '第二章 metainfo.xml 详解': 大数据/ambari/自定义集成/自定义集成手册/002_metainfo.xml_文件详解.md
+                    - '第三章 configureation 详解': 大数据/ambari/自定义集成/自定义集成手册/003_configureation_详解.md
+                    - '第四章 package 详解': 大数据/ambari/自定义集成/自定义集成手册/004_package_详解.md
+#                    - '第五章 RM 模块详解-old': 大数据/ambari/自定义集成/自定义集成手册/005_resource_management_模块详解old.md
+                    - '第五章 RM 模块详解': 大数据/ambari/自定义集成/自定义集成手册/005_resource_management_模块详解.md
+                    - '第六章 RM 模块使用': 大数据/ambari/自定义集成/自定义集成手册/006_resource_management_模块使用.md
+                    - '第七章 quicklinks 快速链接': 大数据/ambari/自定义集成/自定义集成手册/007_quicklinks_快速链接.md
+                    - '第八章 Ambari集成Tomcat': 大数据/ambari/自定义集成/自定义集成手册/008_实战之Ambari集成Tomcat服务.md
+
+
+                - '自定义集成实例':
+                    - '': 大数据/ambari/自定义集成/自定义集成实例/index.md
+                - '自定义集成问题整理':
+                      - '': 大数据/ambari/自定义集成/自定义集成问题整理/index.md
+
+            - '问题整理':
+                - '': 大数据/ambari/问题整理/index.md
+                - 'Ambari Server Alert': 大数据/ambari/问题整理/01_Ambari_Server_Alert.md
+                - 'NameNode Last Checkpoint': 大数据/ambari/问题整理/02_NameNode_Last_Checkpoint.md
+                - 'Ambari 浏览器展示错位': 大数据/ambari/问题整理/03_Ambari浏览器展示错位的问题.md
+                - 'hudi 表元数据丢失无法操作': 大数据/ambari/问题整理/04_Hudi_表因元数据信息丢失无法操作.md
+                - 'spark 写入 hudi数据报错-堆栈': 大数据/ambari/问题整理/05_spark写入hudi数据报错-堆栈.md
+                - 'spark 写入 hudi报错-数据文件问题': 大数据/ambari/问题整理/06_spark写入hudi数据报错-数据文件.md
+                - 'Hudi Spark Sql写入回滚失败': 大数据/ambari/问题整理/07_Hudi_SparkSql_Procedures写入回滚失败.md
+                - 'Component Version': 大数据/ambari/问题整理/08_Component_Version.md
+
+
+        - 'CDH':
+            - '': 大数据/CDH/index.md
+            - '部署':
+                - '': 大数据/CDH/部署/index.md
+                - '手动部署': 大数据/CDH/部署/手动部署.md
+                - '脚本部署': 大数据/CDH/部署/脚本部署.md
+            - '问题整理':
+                - '': 大数据/CDH/问题整理/index.md
+                - '001：NTP 时钟未同步': 大数据/CDH/问题整理/001_NTP时钟未同步.md
+                - '002：集群节点失联 Agent状态异常': 大数据/CDH/问题整理/002_集群节点失联_Agent状态异常.md
+                - '003：虚拟机磁盘空间不足': 大数据/CDH/问题整理/003_虚拟机磁盘空间不足.md
+                - '004：内存配置不合理': 大数据/CDH/问题整理/004_内存配置不合理.md
+                - '005：CPU配置不合理': 大数据/CDH/问题整理/005_CPU配置不合理.md
+                - '006：HDFS纠删码配置不合理': 大数据/CDH/问题整理/006_HDFS纠删码配置不合理.md
+                - '007：CM 彻底删除主机节点': 大数据/CDH/问题整理/007_CM彻底删除主机节点.md
+                - '008：HDFS 手动切换主从': 大数据/CDH/问题整理/008_HDFS_手动切换主从.md
+                - '009：CDH 只读账号关闭yarn任务': 大数据/CDH/问题整理/009_CDH_只读账号关闭yarn任务.md
+                - '010：yarn重启时间过长NM失败': 大数据/CDH/问题整理/010_yarn重启时间过长NM失败.md
+                - '011：CDH集群中var目录下占用空间': 大数据/CDH/问题整理/011_CDH集群中var目录下占用空间.md
+                - '012：Hive对ACID表操作报错': 大数据/CDH/问题整理/012_Hive对ACID表操作报错.md
+                - '013：CREATE-TABLE-AS-SELECT 报错': 大数据/CDH/问题整理/013_CREATE-TABLE-AS-SELECT_报错.md
+                - '014：Bucketized tables不支持 INSERT INTO': 大数据/CDH/问题整理/014_Bucketized_tables不支持_INSERT_INTO.md
+                - '015：使用 impala 引擎查询 hive 无法显示表': 大数据/CDH/问题整理/015_使用_impala引擎查询hive_无法显示表.md
+                - '016: NameNode HA 主备切换': 大数据/CDH/问题整理/016_NameNode_HA_主备切换.md
+                - '017: NameNode HA 脑裂处理': 大数据/CDH/问题整理/017_NameNode_HA_脑裂处理.md
+                - '018: CDH集群部署时遇到的问题整理': 大数据/CDH/问题整理/018_CDH集群部署时遇到的问题整理.md
+                - '019: CDH集群清理监控服务的数据.md': 大数据/CDH/问题整理/019_CDH集群清理监控服务的数据.md
+
+        - 'TDH':
+            - '': 大数据/TDH/index.md
+            - '部署':
+                - '': 大数据/TDH/部署/index.md
+                - '手动部署': 大数据/TDH/部署/手动部署.md
+                - '脚本部署': 大数据/TDH/部署/脚本部署.md
+            - '问题整理': 大数据/TDH/问题整理/index.md
+
+        - '生态组件':
+            - '': 大数据/生态组件/index.md
+            - 'HDFS':
+                - '': 大数据/生态组件/Hdfs/index.md
+                - '基本操作': 大数据/生态组件/Hdfs/基本操作.md
+                - '优化配置': 大数据/生态组件/Hdfs/优化配置.md
+                - '问题整理': 大数据/生态组件/Hdfs/问题整理.md
+                - '面试题': 大数据/生态组件/Hdfs/面试题.md
+
+            - 'Yarn':
+                - '': 大数据/生态组件/Yarn/index.md
+                - '基本操作': 大数据/生态组件/Yarn/基本操作.md
+                - '优化配置': 大数据/生态组件/Yarn/优化配置.md
+                - '问题整理': 大数据/生态组件/Yarn/问题整理.md
+                - '面试题': 大数据/生态组件/Yarn/面试题.md
+
+            - 'Hive':
+                - '': 大数据/生态组件/Hive/index.md
+                - '基本操作': 大数据/生态组件/Hive/基本操作.md
+                - '优化配置': 大数据/生态组件/Hive/优化配置.md
+                - '问题整理': 大数据/生态组件/Hive/问题整理.md
+                - '面试题': 大数据/生态组件/Hive/面试题.md
+
+            - 'Hudi':
+                - '': 大数据/生态组件/Hudi/index.md
+                - '基本操作': 大数据/生态组件/Hudi/基本操作.md
+                - '优化配置': 大数据/生态组件/Hudi/优化配置.md
+                - '问题整理': 大数据/生态组件/Hudi/问题整理.md
+                - '面试题': 大数据/生态组件/Hudi/面试题.md
+
+            - 'Kyuubi':
+                - '': 大数据/生态组件/Kyuubi/index.md
+                - '基本操作': 大数据/生态组件/Kyuubi/基本操作.md
+                - '优化配置': 大数据/生态组件/Kyuubi/优化配置.md
+                - '问题整理': 大数据/生态组件/Kyuubi/问题整理.md
+                - '面试题': 大数据/生态组件/Kyuubi/面试题.md
+
+            - 'Impala':
+                - '': 大数据/生态组件/Impala/index.md
+                - '基本操作': 大数据/生态组件/Impala/基本操作.md
+                - '优化配置': 大数据/生态组件/Impala/优化配置.md
+                - '问题整理': 大数据/生态组件/Impala/问题整理.md
+                - '面试题': 大数据/生态组件/Impala/面试题.md
+
+            - 'Kudu':
+                - '': 大数据/生态组件/Kudu/index.md
+                - '基本操作': 大数据/生态组件/Kudu/基本操作.md
+                - '优化配置': 大数据/生态组件/Kudu/优化配置.md
+                - '问题整理': 大数据/生态组件/Kudu/问题整理.md
+                - '面试题': 大数据/生态组件/Kudu/面试题.md
+
+            - 'Spark':
+                - '': 大数据/生态组件/Spark/index.md
+                - '基本操作': 大数据/生态组件/Spark/基本操作.md
+                - '优化配置': 大数据/生态组件/Spark/优化配置.md
+                - '问题整理': 大数据/生态组件/Spark/问题整理.md
+                - '面试题': 大数据/生态组件/Spark/面试题.md
+
+            - 'Flink':
+                - '': 大数据/生态组件/Flink/index.md
+                - '基本操作': 大数据/生态组件/Flink/基本操作.md
+                - '优化配置': 大数据/生态组件/Flink/优化配置.md
+                - '问题整理': 大数据/生态组件/Flink/问题整理.md
+                - '面试题': 大数据/生态组件/Flink/面试题.md
+
+            - 'Dinky':
+                - '': 大数据/生态组件/Dinky/index.md
+                - '基本操作': 大数据/生态组件/Dinky/基本操作.md
+                - '优化配置': 大数据/生态组件/Dinky/优化配置.md
+                - '问题整理': 大数据/生态组件/Dinky/问题整理.md
+                - '面试题': 大数据/生态组件/Dinky/面试题.md
+
+            - 'MapReduce':
+                - '': 大数据/生态组件/MapReduce/index.md
+                - '基本操作': 大数据/生态组件/MapReduce/基本操作.md
+                - '优化配置': 大数据/生态组件/MapReduce/优化配置.md
+                - '问题整理': 大数据/生态组件/MapReduce/问题整理.md
+                - '面试题': 大数据/生态组件/MapReduce/面试题.md
+
+            - 'Tez':
+                - '': 大数据/生态组件/Tez/index.md
+                - '基本操作': 大数据/生态组件/Tez/基本操作.md
+                - '优化配置': 大数据/生态组件/Tez/优化配置.md
+                - '问题整理': 大数据/生态组件/Tez/问题整理.md
+                - '面试题': 大数据/生态组件/Tez/面试题.md
+
+            - 'Kafka':
+                - '': 大数据/生态组件/Kafka/index.md
+                - '基本操作': 大数据/生态组件/Kafka/基本操作.md
+                - '优化配置': 大数据/生态组件/Kafka/优化配置.md
+                - '问题整理': 大数据/生态组件/Kafka/问题整理.md
+                - '面试题': 大数据/生态组件/Kafka/面试题.md
+
+            - 'Hbase':
+                - '': 大数据/生态组件/Hbase/index.md
+                - '基本操作': 大数据/生态组件/Hbase/基本操作.md
+                - '优化配置': 大数据/生态组件/Hbase/优化配置.md
+                - '问题整理': 大数据/生态组件/Hbase/问题整理.md
+                - '面试题': 大数据/生态组件/Hbase/面试题.md
+
+            - 'Presto':
+                - '': 大数据/生态组件/Presto/index.md
+                - '基本操作': 大数据/生态组件/Presto/基本操作.md
+                - '优化配置': 大数据/生态组件/Presto/优化配置.md
+                - '问题整理': 大数据/生态组件/Presto/问题整理.md
+                - '面试题': 大数据/生态组件/Presto/面试题.md
+
+            - 'Sentry':
+                - '': 大数据/生态组件/Sentry/index.md
+                - '基本操作': 大数据/生态组件/Sentry/基本操作.md
+                - '优化配置': 大数据/生态组件/Sentry/优化配置.md
+                - '问题整理': 大数据/生态组件/Sentry/问题整理.md
+                - '面试题': 大数据/生态组件/Sentry/面试题.md
+
+            - 'Ranger':
+                - '': 大数据/生态组件/Ranger/index.md
+                - '基本操作': 大数据/生态组件/Ranger/基本操作.md
+                - '优化配置': 大数据/生态组件/Ranger/优化配置.md
+                - '问题整理': 大数据/生态组件/Ranger/问题整理.md
+                - '面试题': 大数据/生态组件/Ranger/面试题.md
+
+            - 'Knox':
+                - '': 大数据/生态组件/Knox/index.md
+                - '基本操作': 大数据/生态组件/Knox/基本操作.md
+                - '优化配置': 大数据/生态组件/Knox/优化配置.md
+                - '问题整理': 大数据/生态组件/Knox/问题整理.md
+                - '面试题': 大数据/生态组件/Knox/面试题.md
+
+            - 'Kerberos':
+                - '': 大数据/生态组件/Kerberos/index.md
+                - '基本操作': 大数据/生态组件/Kerberos/基本操作.md
+                - '优化配置': 大数据/生态组件/Kerberos/优化配置.md
+                - '问题整理': 大数据/生态组件/Kerberos/问题整理.md
+                - '面试题': 大数据/生态组件/Kerberos/面试题.md
+
+            - 'Hawq':
+                - '': 大数据/生态组件/Hawq/index.md
+                - '基本操作': 大数据/生态组件/Hawq/基本操作.md
+                - '优化配置': 大数据/生态组件/Hawq/优化配置.md
+                - '问题整理': 大数据/生态组件/Hawq/问题整理.md
+                - '面试题': 大数据/生态组件/Hawq/面试题.md
+
+            - 'Greenplum':
+                - '': 大数据/生态组件/Greenplum/index.md
+                - '基本操作': 大数据/生态组件/Greenplum/基本操作.md
+                - '优化配置': 大数据/生态组件/Greenplum/优化配置.md
+                - '问题整理': 大数据/生态组件/Greenplum/问题整理.md
+                - '面试题': 大数据/生态组件/Greenplum/面试题.md
+
+            - 'Doris':
+                - '': 大数据/生态组件/Doris/index.md
+                - '集群操作':
+                    - '': 大数据/生态组件/Doris/集群操作/index.md
+                    - '001 集群部署安装': 大数据/生态组件/Doris/集群操作/001_集群部署安装.md
+                    - '002 配置参数': 大数据/生态组件/Doris/集群操作/002_配置参数.md
+                    - '003 负载均衡': 大数据/生态组件/Doris/集群操作/003_负载均衡.md
+                    - '004 审计日志': 大数据/生态组件/Doris/集群操作/004_审计日志.md
+                    - '005 监控报警': 大数据/生态组件/Doris/集群操作/005_监控报警.md
+                    - '006 元数据运维': 大数据/生态组件/Doris/集群操作/006_元数据运维.md
+                    - '007 服务自动拉起': 大数据/生态组件/Doris/集群操作/007_服务自动拉起.md
+                    - '008 doris集群版本升级': 大数据/生态组件/Doris/集群操作/008_版本升级.md
+                    - '009 扩容缩容': 大数据/生态组件/Doris/集群操作/009_扩容缩容.md
+                    - '010 备份恢复': 大数据/生态组件/Doris/集群操作/010_备份恢复.md
+                    - '011 CCR-跨集群同步': 大数据/生态组件/Doris/集群操作/011_CCR-跨集群同步.md
+                    - '012 catalog': 大数据/生态组件/Doris/集群操作/012_catalog.md
+                    - '013 数据导入': 大数据/生态组件/Doris/集群操作/013_数据导入.md
+                    - '014 数据导出': 大数据/生态组件/Doris/集群操作/014_数据导出.md
+                - '问题整理':
+                    - '': 大数据/生态组件/Doris/问题整理/index.md
+                    - '001 query timeout': 大数据/生态组件/Doris/问题整理/001_query_timeout.md
+                    - '002 单用户连接数问题': 大数据/生态组件/Doris/问题整理/002_单用户连接数问题.md
+                    - '003 fe因磁盘不足启动报错': 大数据/生态组件/Doris/问题整理/003_fe因磁盘不足启动报错.md
+                    - '004 doris-hive-catalog 报错': 大数据/生态组件/Doris/问题整理/004_doris-hive-catalog_报错.md
+                    - '005 happened when receiving packet': 大数据/生态组件/Doris/问题整理/005_happened_when_receiving_packet.md
+                    - '006 DORIS BE宕机问题排查': 大数据/生态组件/Doris/问题整理/006_DORIS-BE宕机问题排查.md
+                    - '007 Create AS Select导致删除表': 大数据/生态组件/Doris/问题整理/007_Create-AS-Select导致删除表.md
+                    - '008 Unique Key模型查询结果不一致': 大数据/生态组件/Doris/问题整理/008_Unique-Key模型查询结果不一致.md
+                    - '009 时间同步导致fe异常': 大数据/生态组件/Doris/问题整理/009_时间同步导致fe异常.md
+                    - '010 doris插入数据分隔符错误': 大数据/生态组件/Doris/问题整理/010_doris插入数据分隔符错误.md
+                    - '011 doris插入数据报错.md': 大数据/生态组件/Doris/问题整理/011_doris插入数据报错字段长度.md
+                    - '012 定位Doris+FE内存使用过高问题': 大数据/生态组件/Doris/问题整理/012_定位Doris+FE内存使用过高问题.md
+                    - '013 资源不足导致的问题': 大数据/生态组件/Doris/问题整理/013_资源不足导致的问题.md
+                    - '014 查询报错': 大数据/生态组件/Doris/问题整理/014_查询报错.md
+                    - '015 创建表报错': 大数据/生态组件/Doris/问题整理/015_创建表报错.md
+                    - '016 主键模型 主键可以为空': 大数据/生态组件/Doris/问题整理/016_主键模型_主键可以为空.md
+                    - '017 Resource temporarily unavailable': 大数据/生态组件/Doris/问题整理/017_Resource_temporarily_unavailable.md
+                - '面试题': 大数据/生态组件/Doris/面试题.md
+
+            - 'Clickhouse':
+                - '': 大数据/生态组件/Clickhouse/index.md
+                - '基本操作': 大数据/生态组件/Clickhouse/基本操作.md
+                - '优化配置': 大数据/生态组件/Clickhouse/优化配置.md
+                - '问题整理': 大数据/生态组件/Clickhouse/问题整理.md
+                - '面试题': 大数据/生态组件/Clickhouse/面试题.md
+
+            - 'Cassandra':
+                - '': 大数据/生态组件/Cassandra/index.md
+                - '基本操作': 大数据/生态组件/Cassandra/基本操作.md
+                - '优化配置': 大数据/生态组件/Cassandra/优化配置.md
+                - '问题整理': 大数据/生态组件/Cassandra/问题整理.md
+                - '面试题': 大数据/生态组件/Cassandra/面试题.md
+
+            - 'Hue':
+                - '': 大数据/生态组件/Hue/index.md
+                - '基本操作': 大数据/生态组件/Hue/基本操作.md
+                - '优化配置': 大数据/生态组件/Hue/优化配置.md
+                - '问题整理': 大数据/生态组件/Hue/问题整理.md
+                - '面试题': 大数据/生态组件/Hue/面试题.md
+
+            - 'Oozie':
+                - '': 大数据/生态组件/Oozie/index.md
+                - '基本操作': 大数据/生态组件/Oozie/基本操作.md
+                - '优化配置': 大数据/生态组件/Oozie/优化配置.md
+                - '问题整理': 大数据/生态组件/Oozie/问题整理.md
+                - '面试题': 大数据/生态组件/Oozie/面试题.md
+
+            - 'Azkaban':
+                - '': 大数据/生态组件/Azkaban/index.md
+                - '基本操作': 大数据/生态组件/Azkaban/基本操作.md
+                - '优化配置': 大数据/生态组件/Azkaban/优化配置.md
+                - '问题整理': 大数据/生态组件/Azkaban/问题整理.md
+                - '面试题': 大数据/生态组件/Azkaban/面试题.md
+
+            - 'Airflow':
+                - '': 大数据/生态组件/Airflow/index.md
+                - '基本操作': 大数据/生态组件/Airflow/基本操作.md
+                - '优化配置': 大数据/生态组件/Airflow/优化配置.md
+                - '问题整理': 大数据/生态组件/Airflow/问题整理.md
+                - '面试题': 大数据/生态组件/Airflow/面试题.md
+
+            - 'XXL-Job':
+                - '': 大数据/生态组件/XXL-Job/index.md
+                - '基本操作': 大数据/生态组件/XXL-Job/基本操作.md
+                - '优化配置': 大数据/生态组件/XXL-Job/优化配置.md
+                - '问题整理': 大数据/生态组件/XXL-Job/问题整理.md
+                - '面试题': 大数据/生态组件/XXL-Job/面试题.md
+
+            - 'DolphinScheduler':
+                - '': 大数据/生态组件/DolphinScheduler/index.md
+                - '基本操作': 大数据/生态组件/DolphinScheduler/基本操作.md
+                - '优化配置': 大数据/生态组件/DolphinScheduler/优化配置.md
+                - '问题整理': 大数据/生态组件/DolphinScheduler/问题整理.md
+                - '面试题': 大数据/生态组件/DolphinScheduler/面试题.md
+
+            - 'Datax':
+                - '': 大数据/生态组件/Datax/index.md
+                - '基本操作': 大数据/生态组件/Datax/基本操作.md
+                - '优化配置': 大数据/生态组件/Datax/优化配置.md
+                - '问题整理': 大数据/生态组件/Datax/问题整理.md
+                - '面试题': 大数据/生态组件/Datax/面试题.md
+
+            - 'Sqoop':
+                - '': 大数据/生态组件/Sqoop/index.md
+                - '基本操作': 大数据/生态组件/Sqoop/基本操作.md
+                - '优化配置': 大数据/生态组件/Sqoop/优化配置.md
+                - '问题整理': 大数据/生态组件/Sqoop/问题整理.md
+                - '面试题': 大数据/生态组件/Sqoop/面试题.md
+
+            - 'X2doris':
+                - '': 大数据/生态组件/X2doris/index.md
+                - '问题整理':
+                    - '': 大数据/生态组件/X2doris/问题整理/index.md
+                    - 'hive2doris OOM问题处理': 大数据/生态组件/X2doris/问题整理/001_hive2doris_OOM问题处理.md
+
+            - 'Kylin':
+                - '': 大数据/生态组件/Kylin/index.md
+                - '基本操作': 大数据/生态组件/Kylin/基本操作.md
+                - '优化配置': 大数据/生态组件/Kylin/优化配置.md
+                - '问题整理': 大数据/生态组件/Kylin/问题整理.md
+                - '面试题': 大数据/生态组件/Kylin/面试题.md
+
+            - 'Zookeeper':
+                - '': 大数据/生态组件/Zookeeper/index.md
+                - '基本操作': 大数据/生态组件/Zookeeper/基本操作.md
+                - '优化配置': 大数据/生态组件/Zookeeper/优化配置.md
+                - '问题整理': 大数据/生态组件/Zookeeper/问题整理.md
+                - '面试题': 大数据/生态组件/Zookeeper/面试题.md
+
+            - 'Alluxio':
+                - '': 大数据/生态组件/Alluxio/index.md
+                - '基本操作': 大数据/生态组件/Alluxio/基本操作.md
+                - '优化配置': 大数据/生态组件/Alluxio/优化配置.md
+                - '问题整理': 大数据/生态组件/Alluxio/问题整理.md
+                - '面试题': 大数据/生态组件/Alluxio/面试题.md
+
+            - 'Celeborn':
+                - '': 大数据/生态组件/Celeborn/index.md
+                - '基本操作': 大数据/生态组件/Celeborn/基本操作.md
+                - '优化配置': 大数据/生态组件/Celeborn/优化配置.md
+                - '问题整理': 大数据/生态组件/Celeborn/问题整理.md
+                - '面试题': 大数据/生态组件/Celeborn/面试题.md
+
+            - 'Gluten':
+                - '': 大数据/生态组件/Gluten/index.md
+                - '基本操作': 大数据/生态组件/Gluten/基本操作.md
+                - '优化配置': 大数据/生态组件/Gluten/优化配置.md
+                - '问题整理': 大数据/生态组件/Gluten/问题整理.md
+                - '面试题': 大数据/生态组件/Gluten/面试题.md
+
+            - 'HttpFS':
+                - '': 大数据/生态组件/HttpFS/index.md
+                - '基本操作': 大数据/生态组件/HttpFS/基本操作.md
+                - '优化配置': 大数据/生态组件/HttpFS/优化配置.md
+                - '问题整理': 大数据/生态组件/HttpFS/问题整理.md
+                - '面试题': 大数据/生态组件/HttpFS/面试题.md
+
+    - '数据库':
+        - '': 数据库/index.md
+
+    - '应用':
+        - '': 应用/index.md
+
+    - '虚拟化':
+        - '': 虚拟化/index.md
+        - '私有云':
+            - '': 虚拟化/私有云/index.md
+        - '虚拟机':
+            - '': 虚拟化/虚拟机/index.md
+            - 'KVM':
+                - '': 虚拟化/虚拟机/KVM/index.md
+                - 'KVM 安装部署': 虚拟化/虚拟机/KVM/安装部署.md
+                - '常用脚本':
+                    - '': 虚拟化/虚拟机/KVM/常用脚本/index.md
+                    - '01 各个物理机CPU MEM 统计': 虚拟化/虚拟机/KVM/常用脚本/01_各个物理机CPU-MEM_统计.md
+        - '容器':
+            - '': 虚拟化/容器/index.md
+
+    - '存储':
+        - '': 存储/index.md
+        - '分布式存储 ceph':
+            - '': 存储/分布式存储-ceph/index.md
+            - '疑难病ceph恢复': 存储/分布式存储-ceph/疑难病ceph恢复.md
+
+    - '监控':
+        - '': 监控/index.md
+
+    - '自动化':
+        - '': 自动化/index.md
+
+    - '公司使用':
+        - '': 公司使用/index.md
+#################################################
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey # 上方的
+      accent: green # 链接等可交互元件的高亮色
+#       teal
+      toggle:
+        icon: material/toggle-switch # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: green
+      # teal
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: 切换至日间模式
+
+  features:
+    - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
+    - navigation.instant
+    - header.autohide  #自动隐藏
+    - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
+    - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
+    - navigation.tabs.sticky  #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
+#    - navigation.sections #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - navigation.footer #页脚将呈现在边栏中，但在移动设备上保持原样
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
+    - search.share #搜索分享按钮
+#    - navigation.expand # 打开Tab时左侧目录全部展开
+    - navigation.indexes #启用节索引页后，可以将文档直接附加到节
+    - content.tabs.link
+    - content.tooltips
+    - content.code.copy #代码复制
+#    - content.action.edit
+#    - content.action.view
+    - content.code.annotate
+
+  language: zh # 一些提示性的文字会变成中文
+  icon:
+    repo: fontawesome/brands/github #右上角图标
+    logo: logo
+
+edit_uri: edit/main/docs # 编辑按钮跳转的链接
+repo_url: https://gitee.com/daxiong1314/KnowledgeBase # 右上角点击跳转的链接
+repo_name: WangJianXiong # 右上角的名字
+copyright: Copyright &copy; 0000~9999 WangJianXiong/All Rights Reserved. # 左下角的版权声明
+
+extra:
+  generator: false #是否删除页脚显示“使用 MkDocs 材料制造”
+  social:
+    - icon: fontawesome/brands/weixin
+      name: wangjianxiong000834
+
+    - icon: fontawesome/regular/envelope #联系方式图标
+      name: 15233214706@163.com
+
+plugins:
+  - search #搜索配置
+  - glightbox:
+      enabled: !ENV [glightbox, false]
+      touchNavigation: true
+      loop: false
+      effect: fade
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
+
+markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/ 和 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
+  - abbr
+  - attr_list
+  - admonition
+  - def_list
+  - footnotes
+  - md_in_html
+  # - meta # 支持Markdown文件上方自定义标题标签等
+  - pymdownx.caret
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format:
+            !!python/name:pymdownx.superfences.fence_code_format # 代码块高亮插件
+  - pymdownx.arithmatex: # latex支持
+      generic: true
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_javascript:
+   - javascripts/extra.js #自定义javascript
+
+extra_css:
+  - stylesheets/custom.css
+
+
